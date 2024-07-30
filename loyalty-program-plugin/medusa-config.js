@@ -34,13 +34,6 @@ const DATABASE_URL =
 const REDIS_URL = process.env.REDIS_URL || "redis://localhost:6379";
 
 const plugins = [
-  `medusa-fulfillment-manual`,
-  `medusa-payment-manual`,
-  {
-    resolve: `loyalty-program-plugin`,
-    options: {
-    },
-  },
   {
     resolve: `@medusajs/file-local`,
     options: {
@@ -53,8 +46,7 @@ const plugins = [
     options: {
       autoRebuild: true,
       develop: {
-        open: true,
-        port: 7001,
+        open: process.env.OPEN_BROWSER !== "false",
       },
     },
   },
