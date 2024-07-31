@@ -39,6 +39,7 @@ const plugins = [
   {
     resolve: `loyalty-program-plugin`,
     options: {
+      enableUI: true
     },
   },
   {
