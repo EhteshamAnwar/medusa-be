@@ -7,8 +7,9 @@
     </picture>
   </a>
 </p>
+
 <h1 align="center">
-  Medusa
+  Custom Medusa Backend
 </h1>
 
 <h4 align="center">
@@ -19,11 +20,13 @@
 <p align="center">
   Building blocks for digital commerce
 </p>
+
 <p align="center">
-  <a href="https://github.com/medusajs/medusa/blob/master/CONTRIBUTING.md">
+  <a href="https://github.com/EhteshamAnwar/medusa-be/pulls">
     <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat" alt="PRs welcome!" />
   </a>
-    <a href="https://www.producthunt.com/posts/medusa"><img src="https://img.shields.io/badge/Product%20Hunt-%231%20Product%20of%20the%20Day-%23DA552E" alt="Product Hunt"></a>
+  <a href="https://www.producthunt.com/posts/medusa">
+    <img src="https://img.shields.io/badge/Product%20Hunt-%231%20Product%20of%20the%20Day-%23DA552E" alt="Product Hunt"></a>
   <a href="https://discord.gg/xpCwq3Kfn8">
     <img src="https://img.shields.io/badge/chat-on%20discord-7289DA.svg" alt="Discord Chat" />
   </a>
@@ -32,29 +35,28 @@
   </a>
 </p>
 
+## Custom Features
+
+This project extends Medusa's backend by introducing custom modules that enhance the standard features. Below are the major customizations and their respective pull requests:
+
+- **Loyalty Program Module**: Implemented as a custom module to reward customers based on purchases.
+  - [Pull Request: Loyalty Program Module (Custom Module)](https://github.com/EhteshamAnwar/medusa-be/pull/1)
+
+- **Loyalty Program Module as a Medusa Plugin**: Designed as a Medusa Plugin for seamless integration with other Medusa setups.
+  - [Pull Request: Loyalty Program Module (Plugin)](https://github.com/EhteshamAnwar/medusa-be/pull/2)
+
+- **FAQs with Tags Module**: Added support for FAQs along with a tagging system for categorization and searchability.
+  - [Pull Request: FAQs with Tags Module](https://github.com/EhteshamAnwar/medusa-be/pull/3)
+
 ## Compatibility
 
-This starter is compatible with versions >= 1.8.0 of `@medusajs/medusa`. 
+This project is compatible with versions >= 1.8.0 of `@medusajs/medusa`.
 
 ## Getting Started
 
 Visit the [Quickstart Guide](https://docs.medusajs.com/create-medusa-app) to set up a server.
 
-Visit the [Docs](https://docs.medusajs.com/development/backend/prepare-environment) to learn more about our system requirements.
-
-## What is Medusa
-
-Medusa is a set of commerce modules and tools that allow you to build rich, reliable, and performant commerce applications without reinventing core commerce logic. The modules can be customized and used to build advanced ecommerce stores, marketplaces, or any product that needs foundational commerce primitives. All modules are open-source and freely available on npm.
-
-Learn more about [Medusa’s architecture](https://docs.medusajs.com/development/fundamentals/architecture-overview) and [commerce modules](https://docs.medusajs.com/modules/overview) in the Docs.
-
-## Roadmap, Upgrades & Plugins
-
-You can view the planned, started and completed features in the [Roadmap discussion](https://github.com/medusajs/medusa/discussions/categories/roadmap).
-
-Follow the [Upgrade Guides](https://docs.medusajs.com/upgrade-guides/) to keep your Medusa project up-to-date.
-
-Check out all [available Medusa plugins](https://medusajs.com/plugins/).
+Visit the [Docs](https://docs.medusajs.com/development/backend/prepare-environment) to learn more about system requirements.
 
 ## Community & Contributions
 
@@ -62,7 +64,7 @@ The community and core team are available in [GitHub Discussions](https://github
 
 Join our [Discord server](https://discord.com/invite/medusajs) to meet other community members.
 
-## Other channels
+## Other Channels
 
 - [GitHub Issues](https://github.com/medusajs/medusa/issues)
 - [Twitter](https://twitter.com/medusajs)
